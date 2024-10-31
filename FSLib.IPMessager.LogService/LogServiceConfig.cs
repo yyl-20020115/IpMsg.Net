@@ -1,12 +1,11 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 
-namespace FSLib.IPMessager.LogService
+namespace FSLib.IPMessager.LogService;
+
+/// <summary>
+/// LogServiceConfig
+/// </summary>
+[Serializable]
+public class LogServiceConfig
 {
-	[Serializable]
-	public class LogServiceConfig
-	{
-	}
 }
