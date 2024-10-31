@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Reflection;
+using System.IO;
 
 namespace FSLib.IPMessager.Services
 {
@@ -105,12 +106,15 @@ namespace FSLib.IPMessager.Services
 				if (!System.IO.Path.IsPathRooted(s))
 					s = System.IO.Path.Combine(
 						System.IO.Path.GetDirectoryName(System.Reflection.Assembly.GetEntryAssembly().Location), s);
+				if (Directory.Exists(s))
+				{
+					string[] files = System.IO.Directory.GetFiles(s, "*.exe");
 
-				string[] files = System.IO.Directory.GetFiles(s, "*.exe");
-				Array.ForEach(files, loader);
+					Array.ForEach(files, loader);
 
-				files = System.IO.Directory.GetFiles(s, "*.dll");
-				Array.ForEach(files, loader);
+					files = System.IO.Directory.GetFiles(s, "*.dll");
+					Array.ForEach(files, loader);
+				}
 			};
 
 			folderLoader(System.IO.Path.GetDirectoryName(System.Reflection.Assembly.GetEntryAssembly().Location));

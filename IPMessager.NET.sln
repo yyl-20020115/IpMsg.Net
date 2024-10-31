@@ -1,13 +1,13 @@
-﻿
+
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IPMessager.Net", "IPMessager.Net\IPMessager.Net.csproj", "{8FD4E19F-28B0-4EEA-AFAA-7B273E6AB5B9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IPMessager.Net", "IPMessager.Net\IPMessager.Net.csproj", "{8FD4E19F-28B0-4EEA-AFAA-7B273E6AB5B9}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Addin", "Addin", "{50796561-434E-4754-AE4A-B29B43D5081F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FSLib.IPMessager.LogService", "FSLib.IPMessager.LogService\FSLib.IPMessager.LogService.csproj", "{BF063FD2-070D-4CF0-A653-21B12045616F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FSLib.IPMessager.LogService", "FSLib.IPMessager.LogService\FSLib.IPMessager.LogService.csproj", "{BF063FD2-070D-4CF0-A653-21B12045616F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FSLib.IPMessager", "FSLib.IPMessager\FSLib.IPMessager.csproj", "{E86FEBC4-2100-44BB-8703-78DB3845E726}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FSLib.IPMessager", "FSLib.IPMessager\FSLib.IPMessager.csproj", "{E86FEBC4-2100-44BB-8703-78DB3845E726}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
