@@ -15,3 +15,7 @@ _Bin.*
 *.pdsyncu
 *.pdsyncu
 *.ini
+/.vs
+/FSLib.IPMessager/.vs
+/FSLib.IPMessager.LogService/.vs
+/IPMessager.Net/.vs
